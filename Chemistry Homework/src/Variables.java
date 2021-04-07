@@ -9,9 +9,16 @@ public class Variables {
 	public int firsttimes;
 	public double Massofwhole;
 	public double Divide;
-	Main main = new Main();
-	
-	
+
+	public double calculateElements(int counter){
+		int i = 0;
+		do {
+			//do your stuff inside here!
+			i++;
+
+		} while (i<counter);
+		return 0.0;
+	}
 	public double twoElements() {
 		System.out.println("Mass of % composition you want to find");
 		Comp = input.nextDouble();
