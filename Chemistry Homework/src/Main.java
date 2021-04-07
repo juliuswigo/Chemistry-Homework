@@ -6,15 +6,15 @@ static double Answer;
 		
 		
 		Variables Yes = new Variables();
-		int i;
+		int elementCounter;
 		
 		System.out.println("How many Elements?");
 		Scanner input = new Scanner(System.in);
-		i = input.nextInt();
-		if (i == 2) {Yes.twoElements();
-		Answer = Yes.Divide;
-		System.out.println(Answer);
+		elementCounter = input.nextInt();
+		for (int i = 0; i<elementCounter; i++) {
+			Yes.twoElements();
+			Answer = Yes.Divide;
+			System.out.println(Answer);
 		}
-
 	}
 }
